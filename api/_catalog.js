@@ -1,0 +1,572 @@
+module.exports = {
+ "PRODUCTS": [
+  {
+   "id": "pot",
+   "name": "Hand-thrown Terracotta Water Pot",
+   "artisan": "Nimal Perera",
+   "shop": "Molagoda Pottery",
+   "town": "Molagoda",
+   "region": "Kegalle",
+   "category": "Pottery & Clay",
+   "material": "Clay",
+   "price": 3450,
+   "was": 3950,
+   "rating": 4.9,
+   "reviews": 128,
+   "sold": 412,
+   "tag": "Bestseller",
+   "ship": "Ready to ship",
+   "img": "clay-pot",
+   "variants": [
+    [
+     "Small · 2 L",
+     2450
+    ],
+    [
+     "Medium · 4 L",
+     3450
+    ],
+    [
+     "Large · 6 L",
+     4650
+    ]
+   ],
+   "default": 1,
+   "desc": "Thrown on a kick wheel from Kelani river clay and fired in a wood kiln. The porous walls keep drinking water naturally cool — a tradition in Sri Lankan homes for generations.",
+   "story": "Nimal digs and settles his clay from the riverbanks near Molagoda, a village known for pottery since the Kandyan era. Each pot is shaped by hand, burnished with a river stone and fired for nine hours. Small variations in colour and shape are part of the handmade character.",
+   "specs": [
+    [
+     "Material",
+     "Kelani river clay, unglazed"
+    ],
+    [
+     "Dimensions",
+     "Medium: 24 cm high × 22 cm wide"
+    ],
+    [
+     "Care",
+     "Rinse with water only. Soak 12 hours before first use."
+    ],
+    [
+     "Made in",
+     "Molagoda, Kegalle District"
+    ]
+   ]
+  },
+  {
+   "id": "basket",
+   "name": "Dumbara Cane Market Basket",
+   "artisan": "Kumari Herath",
+   "shop": "Dumbara Weaves",
+   "town": "Kandy",
+   "region": "Kandy",
+   "category": "Cane & Weaving",
+   "material": "Cane",
+   "price": 2800,
+   "was": null,
+   "rating": 4.8,
+   "reviews": 96,
+   "sold": 230,
+   "tag": "",
+   "ship": "Ready to ship",
+   "img": "cane-basket",
+   "variants": [
+    [
+     "Medium",
+     2800
+    ],
+    [
+     "Large",
+     3400
+    ]
+   ],
+   "default": 0,
+   "desc": "A sturdy everyday basket woven from split cane and wild creeper, with a reinforced handle for market runs.",
+   "story": "Kumari learned to weave in the Dumbara valley, where cane and rush weaving has been passed down for centuries. Each basket takes two days to weave by hand.",
+   "specs": [
+    [
+     "Material",
+     "Natural cane, wild creeper"
+    ],
+    [
+     "Dimensions",
+     "Medium: 34 × 26 × 22 cm"
+    ],
+    [
+     "Care",
+     "Wipe with a damp cloth; dry in shade"
+    ],
+    [
+     "Made in",
+     "Kandy District"
+    ]
+   ]
+  },
+  {
+   "id": "mask",
+   "name": "Hand-painted Raksha Kolam Mask",
+   "artisan": "Sunil Ariyapala",
+   "shop": "Ambalangoda Masks",
+   "town": "Ambalangoda",
+   "region": "Galle",
+   "category": "Masks & Woodcraft",
+   "material": "Wood",
+   "price": 8900,
+   "was": null,
+   "rating": 5.0,
+   "reviews": 74,
+   "sold": 160,
+   "tag": "Heritage",
+   "ship": "Ready to ship",
+   "img": "kolam-mask",
+   "variants": [
+    [
+     "30 cm",
+     8900
+    ],
+    [
+     "45 cm",
+     13500
+    ]
+   ],
+   "default": 0,
+   "desc": "A traditional Raksha (demon) mask carved from light kaduru wood and painted with natural pigments in the Ruhunu style.",
+   "story": "Sunil is a fourth-generation carver from Ambalangoda, the home of Sri Lankan mask making. Raksha masks were worn in kolam dance-dramas and are believed to ward off evil.",
+   "specs": [
+    [
+     "Material",
+     "Kaduru wood, natural pigments"
+    ],
+    [
+     "Dimensions",
+     "30 cm high"
+    ],
+    [
+     "Care",
+     "Keep out of direct sun and damp"
+    ],
+    [
+     "Made in",
+     "Ambalangoda, Galle District"
+    ]
+   ]
+  },
+  {
+   "id": "batik",
+   "name": "Indigo Batik Sarong",
+   "artisan": "Fathima Rizvi",
+   "shop": "Matale Batik",
+   "town": "Matale",
+   "region": "Matale",
+   "category": "Batik & Handloom",
+   "material": "Cotton",
+   "price": 4200,
+   "was": null,
+   "rating": 4.7,
+   "reviews": 153,
+   "sold": 380,
+   "tag": "",
+   "ship": "Ready to ship",
+   "img": "batik-sarong",
+   "variants": [
+    [
+     "Standard · 2 m",
+     4200
+    ]
+   ],
+   "default": 0,
+   "desc": "Hand-waxed and dyed indigo batik on soft cotton, finished with a terracotta border.",
+   "story": "Fathima draws every motif freehand with a tjanting tool before dyeing in small batches, so each sarong is unique.",
+   "specs": [
+    [
+     "Material",
+     "100% cotton"
+    ],
+    [
+     "Size",
+     "2 m × 1.15 m"
+    ],
+    [
+     "Care",
+     "Hand wash cold, dry in shade"
+    ],
+    [
+     "Made in",
+     "Matale"
+    ]
+   ]
+  },
+  {
+   "id": "elephant",
+   "name": "Carved Kithul-wood Elephant",
+   "artisan": "Ruwan Jayasinghe",
+   "shop": "Ruwan Woodcraft",
+   "town": "Kurunegala",
+   "region": "Kurunegala",
+   "category": "Masks & Woodcraft",
+   "material": "Wood",
+   "price": 5600,
+   "was": null,
+   "rating": 4.8,
+   "reviews": 88,
+   "sold": 140,
+   "tag": "New",
+   "ship": "Ready to ship",
+   "img": "wooden-elephant",
+   "variants": [
+    [
+     "15 cm",
+     5600
+    ],
+    [
+     "25 cm",
+     8900
+    ]
+   ],
+   "default": 0,
+   "desc": "A ceremonial elephant carved from fallen kithul wood, with a hand-painted perahera saddle cloth.",
+   "story": "Ruwan only uses wood from fallen or storm-damaged trees, and finishes each piece with beeswax.",
+   "specs": [
+    [
+     "Material",
+     "Kithul wood, beeswax finish"
+    ],
+    [
+     "Dimensions",
+     "15 cm high"
+    ],
+    [
+     "Care",
+     "Dust with a dry cloth"
+    ],
+    [
+     "Made in",
+     "Kurunegala"
+    ]
+   ]
+  },
+  {
+   "id": "lamp",
+   "name": "Brass Pahana Oil Lamp",
+   "artisan": "Ajith Kumara",
+   "shop": "Kandy Brass Works",
+   "town": "Kandy",
+   "region": "Kandy",
+   "category": "Brassware",
+   "material": "Brass",
+   "price": 12500,
+   "was": null,
+   "rating": 4.9,
+   "reviews": 61,
+   "sold": 95,
+   "tag": "15% off",
+   "ship": "Ready to ship",
+   "img": "brass-lamp",
+   "variants": [
+    [
+     "12-wick · 45 cm",
+     12500
+    ],
+    [
+     "7-wick · 30 cm",
+     8200
+    ]
+   ],
+   "default": 0,
+   "desc": "A traditional pahana oil lamp hand-cast in solid brass using the lost-wax method. Perfect for Vesak, weddings and the New Year.",
+   "story": "Ajith runs a family brass workshop near Kandy where lamps are still cast, filed and polished by hand.",
+   "specs": [
+    [
+     "Material",
+     "Solid brass"
+    ],
+    [
+     "Dimensions",
+     "45 cm high, 12 wicks"
+    ],
+    [
+     "Care",
+     "Polish with tamarind or brass cleaner"
+    ],
+    [
+     "Made in",
+     "Kandy"
+    ]
+   ]
+  },
+  {
+   "id": "bowl",
+   "name": "Polished Coconut Shell Bowl Set",
+   "artisan": "Dilani Fernando",
+   "shop": "Negombo Coco Craft",
+   "town": "Negombo",
+   "region": "Gampaha",
+   "category": "Eco & Coconut",
+   "material": "Coconut shell",
+   "price": 1950,
+   "was": null,
+   "rating": 4.6,
+   "reviews": 210,
+   "sold": 520,
+   "tag": "",
+   "ship": "Ready to ship",
+   "img": "coconut-bowl",
+   "variants": [
+    [
+     "Set of 2",
+     1950
+    ],
+    [
+     "Set of 4",
+     3600
+    ]
+   ],
+   "default": 0,
+   "desc": "Zero-waste bowls made from reclaimed coconut shells, sanded and sealed with food-safe coconut oil. Includes wooden spoons.",
+   "story": "Dilani turns shells discarded by local oil mills into tableware, employing six women from her village.",
+   "specs": [
+    [
+     "Material",
+     "Coconut shell, coconut oil finish"
+    ],
+    [
+     "Size",
+     "12–14 cm diameter"
+    ],
+    [
+     "Care",
+     "Hand wash only"
+    ],
+    [
+     "Made in",
+     "Negombo"
+    ]
+   ]
+  },
+  {
+   "id": "lace",
+   "name": "Beeralu Lace Table Doily",
+   "artisan": "Malini Silva",
+   "shop": "Galle Beeralu",
+   "town": "Galle",
+   "region": "Galle",
+   "category": "Lace & Embroidery",
+   "material": "Cotton",
+   "price": 3100,
+   "was": null,
+   "rating": 4.9,
+   "reviews": 47,
+   "sold": 88,
+   "tag": "Made to order",
+   "ship": "Made to order · ships in 5 days",
+   "img": "beeralu-lace",
+   "variants": [
+    [
+     "Ivory · 30 cm",
+     2400
+    ],
+    [
+     "Ivory · 40 cm",
+     3100
+    ]
+   ],
+   "default": 1,
+   "desc": "Delicate bobbin lace (beeralu) worked by hand on a pillow with up to 40 bobbins.",
+   "story": "Malini learned beeralu from her grandmother in Weligama. A 40 cm doily takes about four days.",
+   "specs": [
+    [
+     "Material",
+     "Mercerised cotton thread"
+    ],
+    [
+     "Size",
+     "40 cm diameter"
+    ],
+    [
+     "Care",
+     "Hand wash, dry flat"
+    ],
+    [
+     "Made in",
+     "Galle"
+    ]
+   ]
+  },
+  {
+   "id": "cushion",
+   "name": "Handloom Cotton Cushion Cover",
+   "artisan": "Shiromi Wijesekara",
+   "shop": "Wayamba Handloom",
+   "town": "Kurunegala",
+   "region": "Kurunegala",
+   "category": "Batik & Handloom",
+   "material": "Cotton",
+   "price": 2650,
+   "was": null,
+   "rating": 4.7,
+   "reviews": 119,
+   "sold": 310,
+   "tag": "",
+   "ship": "Ready to ship",
+   "img": "handloom-cushion",
+   "variants": [
+    [
+     "16 inch",
+     2650
+    ],
+    [
+     "18 inch",
+     2950
+    ]
+   ],
+   "default": 0,
+   "desc": "Woven on a wooden handloom in bright stripes of terracotta, turmeric and forest green.",
+   "story": "Shiromi leads a weaving collective of 12 women in Kurunegala using traditional pit looms.",
+   "specs": [
+    [
+     "Material",
+     "Handloom cotton"
+    ],
+    [
+     "Size",
+     "16 × 16 inch, zip closure"
+    ],
+    [
+     "Care",
+     "Machine wash cold"
+    ],
+    [
+     "Made in",
+     "Kurunegala"
+    ]
+   ]
+  },
+  {
+   "id": "lacquer",
+   "name": "Lacquerware Trinket Box",
+   "artisan": "Chaminda Bandara",
+   "shop": "Matale Lacquer",
+   "town": "Matale",
+   "region": "Matale",
+   "category": "Lacquerware",
+   "material": "Wood",
+   "price": 4750,
+   "was": null,
+   "rating": 4.8,
+   "reviews": 58,
+   "sold": 72,
+   "tag": "New",
+   "ship": "Ready to ship",
+   "img": "lacquer-box",
+   "variants": [
+    [
+     "One size",
+     4750
+    ]
+   ],
+   "default": 0,
+   "desc": "A turned wooden box decorated with layered Sri Lankan lacquer (laksha) in red, yellow and green bands.",
+   "story": "Chaminda practises the \"niyapotha\" fingernail lacquer technique passed down in his family for five generations.",
+   "specs": [
+    [
+     "Material",
+     "Wood, natural lac"
+    ],
+    [
+     "Size",
+     "12 cm diameter"
+    ],
+    [
+     "Care",
+     "Wipe with a soft cloth"
+    ],
+    [
+     "Made in",
+     "Matale"
+    ]
+   ]
+  }
+ ],
+ "ARTISANS": [
+  {
+   "ini": "NP",
+   "name": "Nimal Perera",
+   "craft": "Potter",
+   "loc": "Molagoda, Kegalle",
+   "rating": "4.9",
+   "col": "#C87955",
+   "img": "clay-pot",
+   "bio": "Third-generation potter shaping river clay on a kick wheel."
+  },
+  {
+   "ini": "SA",
+   "name": "Sunil Ariyapala",
+   "craft": "Mask carver",
+   "loc": "Ambalangoda, Galle",
+   "rating": "5.0",
+   "col": "#B3352A",
+   "img": "kolam-mask",
+   "bio": "Carves kaduru-wood masks in the traditional Ruhunu style."
+  },
+  {
+   "ini": "FR",
+   "name": "Fathima Rizvi",
+   "craft": "Batik artist",
+   "loc": "Matale",
+   "rating": "4.7",
+   "col": "#23466B",
+   "img": "batik-sarong",
+   "bio": "Hand-waxed indigo batik on cotton and silk."
+  },
+  {
+   "ini": "MS",
+   "name": "Malini Silva",
+   "craft": "Beeralu lacemaker",
+   "loc": "Galle",
+   "rating": "4.9",
+   "col": "#245C45",
+   "img": "beeralu-lace",
+   "bio": "Bobbin lace taught by her grandmother in Weligama."
+  },
+  {
+   "ini": "AK",
+   "name": "Ajith Kumara",
+   "craft": "Brass caster",
+   "loc": "Kandy",
+   "rating": "4.9",
+   "col": "#D9A441",
+   "img": "brass-lamp",
+   "bio": "Lost-wax brass lamps from a family workshop."
+  },
+  {
+   "ini": "KH",
+   "name": "Kumari Herath",
+   "craft": "Cane weaver",
+   "loc": "Kandy",
+   "rating": "4.8",
+   "col": "#8C6A3C",
+   "img": "cane-basket",
+   "bio": "Dumbara valley cane and rush weaving."
+  },
+  {
+   "ini": "RJ",
+   "name": "Ruwan Jayasinghe",
+   "craft": "Wood carver",
+   "loc": "Kurunegala",
+   "rating": "4.8",
+   "col": "#7A4E2D",
+   "img": "wooden-elephant",
+   "bio": "Carves fallen kithul wood into heirloom figures."
+  },
+  {
+   "ini": "DF",
+   "name": "Dilani Fernando",
+   "craft": "Coconut craft",
+   "loc": "Negombo",
+   "rating": "4.6",
+   "col": "#6B4425",
+   "img": "coconut-bowl",
+   "bio": "Zero-waste tableware from reclaimed shells."
+  }
+ ]
+};

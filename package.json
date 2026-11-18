@@ -1,0 +1,7 @@
+{
+  "name": "craftmart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CraftMart — Sri Lankan handmade marketplace (static site + Gemini chatbot API on Vercel)",
+  "engines": { "node": ">=18" }
+}
